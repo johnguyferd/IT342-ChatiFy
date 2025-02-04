@@ -11,3 +11,17 @@ Name: Rickshel Brent B. Ilustrisimo
 COURSE & YEAR: BSIT-4
 
 I AM WHO I AM
+
+TEAM MEMBERS: 
+
+MEMBER1:
+NAME: Rickshel Brent Illustrisimo
+Course: BSIT4
+
+MEMBER2:
+NAME: Vincent Nino Nator
+Course: BSIT4
+
+MEMBER3:
+NAME: John Guyferd Benito
+
