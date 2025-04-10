@@ -9,10 +9,8 @@ const LandingPage = () => {
 
   const teamMembers = [
     "Rickshel Brent B. Ilustrisimo",
-    "Chris Amron A. Luzon",
-    "Mary Alexame J. Garces",
-    "Ezzel Jan Francisco",
-    "Mhart Khiss Degollacion"
+    "John Guyferd A. Benito",
+    "Vincent Nino Nator"
   ];
 
   return (
