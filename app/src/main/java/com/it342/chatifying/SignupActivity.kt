@@ -11,9 +11,13 @@ class SignupActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_signup)
-
+        val btnRegister = findViewById<Button>(R.id.btnRegister)
         val loginRedirect = findViewById<Button>(R.id.loginRedirect)
         loginRedirect.setOnClickListener {
+            startActivity(Intent(this, LoginActivity::class.java))
+        }
+
+        btnRegister.setOnClickListener {
             startActivity(Intent(this, LoginActivity::class.java))
         }
     }

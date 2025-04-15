@@ -12,11 +12,13 @@ class LandingActivity : AppCompatActivity() {
 
         val loginBtn = findViewById<Button>(R.id.landingLogin)
         val signupBtn = findViewById<Button>(R.id.landingSignup)
-
+        val landingStartChatting = findViewById<Button>(R.id.landingStartChatting)
         loginBtn.setOnClickListener {
             startActivity(Intent(this,LoginActivity::class.java))
         }
-
+        landingStartChatting.setOnClickListener {
+            startActivity(Intent(this,LoginActivity::class.java))
+        }
         signupBtn.setOnClickListener {
             startActivity(Intent(this, SignupActivity::class.java))
         }
